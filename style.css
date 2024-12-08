@@ -1,0 +1,46 @@
+/*colors*/
+:root {
+    --very-dark-blu: hsl(214, 17%, 51%);
+    --desaturated-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+}
+
+/*css rest*/
+
+*,*::before  *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+
+/*end of css rest/
